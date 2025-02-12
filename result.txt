@@ -1,0 +1,10 @@
+0.0.0.0 ads-d.viber.com
+0.0.0.0 ads.aws.viber.com
+0.0.0.0 ads.cdn.viber.com
+0.0.0.0 ads.viber.com
+0.0.0.0 api.skype.com
+0.0.0.0 apps.skype.com
+0.0.0.0 locp-ir.viber.com
+0.0.0.0 s-bid.rmp.rakuten.com
+0.0.0.0 static.skypeassets.com
+0.0.0.0 stats.grafana.org

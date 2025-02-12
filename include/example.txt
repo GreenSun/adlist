@@ -1,0 +1,2 @@
+0.0.0.0 example1.com
+0.0.0.0 example2.com
