@@ -39,6 +39,7 @@ var (
 	commentRegex      = regexp.MustCompile(`\s*#.*$`)
 	multiSpacesRegexp = regexp.MustCompile(`\s\s+`)
 	ipAddressRegex    = regexp.MustCompile(`^\d+\.\d+\.\d+\.\d+\s`)
+	ipAddressHost     = regexp.MustCompile(`^\d+\.\d+\.\d+\.\d+\s\d+\.\d+\.\d+\.\d+`)
 )
 
 func main() {
@@ -165,6 +166,11 @@ func cleanLine(line string) string {
 	hasIPAddress := ipAddressRegex.MatchString(line)
 	if !hasIPAddress {
 		line = "0.0.0.0 " + line
+	}
+
+	hasIpAddressHost := ipAddressHost.MatchString(line)
+	if hasIpAddressHost {
+		return ""
 	}
 
 	return line
