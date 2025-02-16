@@ -26,7 +26,7 @@ const (
 
 var urls = []string{
 	"https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
-	"https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt",
+	//"https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt",
 	"https://v.firebog.net/hosts/AdguardDNS.txt",
 	"https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt",
 	"https://s3.amazonaws.com/lists.disconnect.me/simple_ad.txt",
