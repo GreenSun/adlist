@@ -1,3 +1,5 @@
 127.0.0.1 localhost
 127.0.0.1 localhost.localdomain
 255.255.255.255 broadcasthost
+0.0.0.0 clck.ru
+0.0.0.0 app.adjust.com # click on search
