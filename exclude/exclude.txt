@@ -3,3 +3,4 @@
 255.255.255.255 broadcasthost
 0.0.0.0 clck.ru
 0.0.0.0 app.adjust.com # click on search
+0.0.0.0 ad.mail.ru # for vkdoc.mail.ru
