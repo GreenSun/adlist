@@ -3,4 +3,6 @@
 255.255.255.255 broadcasthost
 0.0.0.0 clck.ru
 0.0.0.0 app.adjust.com # click on search
+0.0.0.0 ad.adriver.ru # click on ozon ad
 0.0.0.0 ad.mail.ru # for vkdoc.mail.ru
+0.0.0.0 s.click.aliexpress.com # click on ali ads not works
